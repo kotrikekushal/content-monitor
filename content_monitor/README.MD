@@ -33,7 +33,7 @@ content_monitor/
 ## Setup Instructions
 
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/kotrikekushal/content-monitor.git
 cd content_monitor
 
 pip install -r requirements.txt
@@ -63,7 +63,7 @@ python manage.py runserver
 * POST /keywords/
 * POST /scan/
 * GET /flags/
-* PATCH /flags/<id>/
+* PATCH `/flags/<id>/`
 
 ---
 
